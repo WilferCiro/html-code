@@ -1,0 +1,38 @@
+input {
+    border: solid 1px red;
+    background: green;
+    color: white;
+    padding: 8px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.imagen_1 {
+    border-radius: 30px;
+}
+
+#imagen_id {
+    border-radius: 20px;
+}
+
+.product {
+    border: solid 3px #2B2B2B;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s;
+    width: 300px;
+    height: 300px;
+}
+
+.product:hover {
+    background: red;
+    cursor: pointer;
+    box-shadow: 0 0 50px black;
+}
